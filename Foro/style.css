@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+}
+
+.mensaje{
+    height: 60px;
+    width: 500px;
+    border: solid 1px black;
+    border-radius: 4px;
+    display: flex;
+    margin: 5px;
+}
+
+.foto{
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.name-msj{
+    margin: 0;
+    padding: 0;
+}
+
+.remitente{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+
+.msj{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+form{
+    margin: 5px;
+    display: auto;
+}

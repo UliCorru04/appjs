@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+.ventana{
+    margin: 10px;
+    border: solid 5px black;
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    text-align: center;
+}
+
+img{
+    margin: 10px;
+    height: 240px;
+    width: 230px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+    transition: 0.3s;
+}
+
+#conteiner{
+    display: flex;
+}
+
+.locked:active{
+    background: red;
+    transition: 0.2s;
+}
